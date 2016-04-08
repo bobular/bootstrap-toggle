@@ -77,7 +77,10 @@
 		var height = this.options.height || Math.max($toggleOn.outerHeight(), $toggleOff.outerHeight())
 		$toggleOn.addClass('toggle-on')
 		$toggleOff.addClass('toggle-off')
-		this.$toggle.css({ width: width, height: height })
+
+		// ikirmitz: disable width for the toggles
+		// this.$toggle.css({ width: width, height: height })
+		this.$toggle.css({height: height})
 		if (this.options.height) {
 			$toggleOn.css('line-height', $toggleOn.height() + 'px')
 			$toggleOff.css('line-height', $toggleOff.height() + 'px')

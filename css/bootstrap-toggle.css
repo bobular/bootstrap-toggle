@@ -65,8 +65,18 @@
 }
 
 .toggle.btn { min-width: 59px; min-height: 34px; }
-.toggle-on.btn { padding-right: 24px; }
-.toggle-off.btn { padding-left: 24px; }
+
+.toggle-on.btn {
+	padding-right: 18px;
+}
+
+.toggle-off.btn {
+	padding-left: 18px;
+}
+
+.toggle-off.btn-default {
+	background: #EEEEEE;
+}
 
 .toggle.btn-lg { min-width: 79px; min-height: 45px; }
 .toggle-on.btn-lg { padding-right: 31px; }
